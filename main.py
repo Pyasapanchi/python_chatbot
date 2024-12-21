@@ -76,9 +76,9 @@ def main():
         except Exception as e:
             print(f"Error:{e}")
             print (" Sorry, I encountered an error:{e}.")
-        
-            prompt = get_llm_response(input("What Python question do you have? (or type 'exit')\n You: "))
-            print(prompt)
+        continue
+            # prompt = get_llm_response(input("What Python question do you have? (or type 'exit')\n You: "))
+            # print(prompt)
            
 
 if __name__ == "__main__":
