@@ -1,0 +1,10 @@
+Packages in Python are a way of organizing related modules into a hierarchical structure.  Think of it like folders on your computer – you can group files together for better organization.  This makes your code more manageable, especially as your projects grow larger.
+
+A module is simply a Python file (`.py`) containing code.  A package is a directory containing one or more modules, plus a special file named `__init__.py` (it can be empty, but it's required to tell Python that the directory should be treated as a package).
+
+Let's look at an example:
+
+Imagine you're building a game. You might have modules for different aspects of the game:  `graphics.py`, `sound.py`, `gameplay.py`.  You could organize these into a package called `mygame`:
+
+```
+mygame/
